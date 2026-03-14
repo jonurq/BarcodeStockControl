@@ -9,13 +9,13 @@
     - [x] Implement database/repository unit tests.
 - [x] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
 
-## Phase 2: ML Kit Integration and Camera UI
+## Phase 2: ML Kit Integration and Camera UI [checkpoint: 643d561]
 - [x] Task: Implement CameraX preview [27057f7]
     - [x] Setup permissions and CameraX lifecycle binding in Jetpack Compose.
 - [x] Task: Integrate ML Kit Barcode Scanning [57b10b4]
     - [x] Create an `ImageAnalysis.Analyzer` using ML Kit for barcode detection.
     - [x] Add haptic/audio feedback on successful scan.
-- [~] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
 
 ## Phase 3: Main UI, Grid Selector, and Export
 - [ ] Task: Implement Quantity Selector Grid UI
