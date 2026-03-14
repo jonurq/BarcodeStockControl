@@ -57,6 +57,9 @@ dependencies {
     // Accompanist Permissions
     implementation(libs.accompanist.permissions)
 
+    // ML Kit Barcode Scanning
+    implementation(libs.mlkit.barcode)
+
     // Room
     implementation(libs.room.runtime)
     ksp(libs.room.compiler)
