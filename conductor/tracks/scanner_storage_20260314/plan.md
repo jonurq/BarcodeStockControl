@@ -21,9 +21,9 @@
 - [x] Task: Implement Quantity Selector Grid UI [4f1346b]
     - [x] Create Compose layout for quick number selection.
     - [x] Handle duplicate code logic (overwrite warning).
-- [~] Task: Implement Main Screen List
-    - [ ] Show scanned items with swipe-to-delete.
-    - [ ] Implement "Delete All" with confirmation.
-- [ ] Task: Implement Export functionality
-    - [ ] Generate text payload and trigger Android share intent.
-- [ ] Task: Conductor - User Manual Verification 'Phase 3' (Protocol in workflow.md)
+- [x] Task: Implement Main Screen List [0e54d84]
+    - [x] Show scanned items with swipe-to-delete.
+    - [x] Implement "Delete All" with confirmation.
+- [x] Task: Implement Export functionality
+    - [x] Generate text payload and trigger Android share intent.
+- [~] Task: Conductor - User Manual Verification 'Phase 3' (Protocol in workflow.md)
