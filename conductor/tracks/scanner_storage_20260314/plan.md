@@ -10,9 +10,9 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
 
 ## Phase 2: ML Kit Integration and Camera UI
-- [~] Task: Implement CameraX preview
-    - [ ] Setup permissions and CameraX lifecycle binding in Jetpack Compose.
-- [ ] Task: Integrate ML Kit Barcode Scanning
+- [x] Task: Implement CameraX preview [27057f7]
+    - [x] Setup permissions and CameraX lifecycle binding in Jetpack Compose.
+- [~] Task: Integrate ML Kit Barcode Scanning
     - [ ] Create an `ImageAnalysis.Analyzer` using ML Kit for barcode detection.
     - [ ] Add haptic/audio feedback on successful scan.
 - [ ] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
