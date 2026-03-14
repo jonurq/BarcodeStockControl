@@ -26,6 +26,7 @@ import kotlin.coroutines.suspendCoroutine
 
 @Composable
 fun CameraPreview(
+    onBarcodeDetected: (String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     val context = LocalContext.current
@@ -64,8 +65,7 @@ fun CameraPreview(
                             vibrator.vibrate(100)
                         }
                         
-                        // TODO: Navigate or show UI for quantity entry with the 'barcode'
-                        println("SCANNED: $barcode")
+                        onBarcodeDetected(barcode)
                     }
                 )
             }

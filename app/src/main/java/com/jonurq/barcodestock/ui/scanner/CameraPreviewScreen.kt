@@ -16,6 +16,7 @@ import com.google.accompanist.permissions.shouldShowRationale
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
 fun CameraPreviewScreen(
+    onBarcodeDetected: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val cameraPermissionState = rememberPermissionState(Manifest.permission.CAMERA)
@@ -28,7 +29,7 @@ fun CameraPreviewScreen(
 
     Box(modifier = modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         if (cameraPermissionState.status.isGranted) {
-            CameraPreview()
+            CameraPreview(onBarcodeDetected = onBarcodeDetected)
         } else if (cameraPermissionState.status.shouldShowRationale) {
             Text("Camera permission is required to scan barcodes.")
         } else {
