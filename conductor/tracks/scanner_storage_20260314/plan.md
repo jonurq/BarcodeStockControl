@@ -5,9 +5,9 @@
     - [x] Define `StockItem` entity/model (barcode, quantity).
     - [x] Create Data Access Object (DAO) or repository for insert, update, delete, and getAll queries.
     - [x] Setup Dependency Injection for the repository.
-- [~] Task: Write tests for Local Storage
-    - [ ] Implement database/repository unit tests.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
+- [x] Task: Write tests for Local Storage
+    - [x] Implement database/repository unit tests.
+- [~] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
 
 ## Phase 2: ML Kit Integration and Camera UI
 - [ ] Task: Implement CameraX preview
