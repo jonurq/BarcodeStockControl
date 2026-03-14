@@ -18,7 +18,7 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 2' (Protocol in workflow.md)
 
 ## Phase 3: Main UI, Grid Selector, and Export
-- [ ] Task: Implement Quantity Selector Grid UI
+- [~] Task: Implement Quantity Selector Grid UI
     - [ ] Create Compose layout for quick number selection.
     - [ ] Handle duplicate code logic (overwrite warning).
 - [ ] Task: Implement Main Screen List
