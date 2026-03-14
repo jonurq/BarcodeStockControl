@@ -11,11 +11,13 @@
 
 ## Architecture & Data
 - **Architecture Pattern:** Clean Architecture / MVVM with StateFlow
-- **Local Persistence:** Room Database and/or DataStore (for offline storage)
+- **Dependency Injection:** Hilt
+- **Local Persistence:** Room Database
 
 ## Specialized Capabilities
 - **Barcode Scanning:** Google ML Kit Barcode Scanning (On-device processing)
+- **Camera Integration:** CameraX with Accompanist Permissions
 
 ## Testing
-- **Unit Testing:** JUnit 4
+- **Unit Testing:** JUnit 4, Robolectric
 - **UI/Integration Testing:** Espresso, Compose UI Test framework
