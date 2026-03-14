@@ -1,13 +1,13 @@
 # Implementation Plan
 
-## Phase 1: Architecture Setup and Offline Storage
+## Phase 1: Architecture Setup and Offline Storage [checkpoint: 4c320aa]
 - [x] Task: Setup Local Database for Stock Items [5dcb58e]
     - [x] Define `StockItem` entity/model (barcode, quantity).
     - [x] Create Data Access Object (DAO) or repository for insert, update, delete, and getAll queries.
     - [x] Setup Dependency Injection for the repository.
 - [x] Task: Write tests for Local Storage
     - [x] Implement database/repository unit tests.
-- [~] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
 
 ## Phase 2: ML Kit Integration and Camera UI
 - [ ] Task: Implement CameraX preview
