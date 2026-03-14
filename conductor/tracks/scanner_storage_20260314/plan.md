@@ -1,7 +1,7 @@
 # Implementation Plan
 
 ## Phase 1: Architecture Setup and Offline Storage
-- [ ] Task: Setup Local Database for Stock Items
+- [~] Task: Setup Local Database for Stock Items
     - [ ] Define `StockItem` entity/model (barcode, quantity).
     - [ ] Create Data Access Object (DAO) or repository for insert, update, delete, and getAll queries.
     - [ ] Setup Dependency Injection for the repository.

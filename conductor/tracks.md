@@ -4,5 +4,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Implement ML Kit Scanner and Offline Storage**
+- [~] **Track: Implement ML Kit Scanner and Offline Storage**
   *Link: [./tracks/scanner_storage_20260314/](./tracks/scanner_storage_20260314/)*
