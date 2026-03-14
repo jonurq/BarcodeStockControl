@@ -48,6 +48,15 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
 
+    // CameraX
+    implementation(libs.camerax.core)
+    implementation(libs.camerax.camera2)
+    implementation(libs.camerax.lifecycle)
+    implementation(libs.camerax.view)
+    
+    // Accompanist Permissions
+    implementation(libs.accompanist.permissions)
+
     // Room
     implementation(libs.room.runtime)
     ksp(libs.room.compiler)
