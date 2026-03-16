@@ -12,9 +12,9 @@ Barcode Stock Control is an Android application designed for rapid inventory man
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="screnshoot1.jpg" width="30%" alt="App Screenshot 1" />
+  <img src="images/screenshot1.jpg" width="30%" alt="App Screenshot 1" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="screenshoot2.jpg" width="30%" alt="App Screenshot 2" />
+  <img src="images/screenshot2.jpg" width="30%" alt="App Screenshot 2" />
 </div>
 
 ## 🛠️ Tech Stack
